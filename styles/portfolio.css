@@ -1,16 +1,4 @@
-/*font-family: 'Lusitana', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Tenor Sans', sans-serif;*/
-
 h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-}
-p {
-  font-family: "Lusitana", serif;
-  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
 }
