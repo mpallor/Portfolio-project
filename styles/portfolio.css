@@ -1,4 +1,43 @@
-h1 {
-  font-family: "Roboto", sans-serif;
+:root {
+  --heading-font-family: "MuseoModerno", cursive;
+  --default-font-family: "Lusitana", serif;
+}
+
+.name {
+  font-family: var(--heading-font-family);
   font-size: 96px;
+  font-weight: 700;
+  line-height: 128px;
+  margin-bottom: 0;
+}
+body {
+  font-family: var(--default-font-family);
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 2;
+  color: #272142;
+}
+p {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #272142;
+  margin: 0;
+}
+.heading {
+  padding: 160px 20px;
+  text-align: center;
+  background: #fff;
+  color: black;
+}
+.heading .btn-branding {
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  padding: 18px 46px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
 }
