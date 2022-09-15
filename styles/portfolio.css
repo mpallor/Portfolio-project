@@ -13,19 +13,21 @@
 body {
   font-family: var(--default-font-family);
 }
-.subtitle {
+h2.subtitle {
   font-weight: 400;
   font-size: 24px;
   line-height: 2;
   color: #272142;
 }
-h2 {
-  font-size: 164px;
+h2.project-title {
+  font-size: 54px;
   font-weight: 800;
+  color: black;
 }
 p {
   font-weight: 500;
   font-size: 16px;
+  line-height: 30px;
 }
 .heading p {
   font-size: 36px;
@@ -35,7 +37,7 @@ p {
   margin: 0;
 }
 .heading {
-  padding: 160px 20px;
+  padding: 120px 20px;
   text-align: center;
   background: #fff;
   color: black;
@@ -49,11 +51,15 @@ p {
   line-height: 27px;
   font-weight: 500;
 }
-.btn-branding-outline {
-  background: pink;
+
+.project-button .btn-branding-outline {
+  color: black;
   border: 1px solid black;
   border-radius: 4px;
   padding: 18px 46px;
   font-size: 18px;
   line-height: 27px;
+}
+.project-description {
+  padding: 60px 30px;
 }
