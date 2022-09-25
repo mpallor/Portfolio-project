@@ -125,3 +125,35 @@ a.project-button {
   line-height: 27px;
   font-weight: 500;
 }
+
+.logo {
+  max-width: 150px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  font-size: 18px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: #6c63ff;
+}
