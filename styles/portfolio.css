@@ -5,7 +5,7 @@
 
 .name {
   font-family: var(--heading-font-family);
-  font-size: 106px;
+  font-size: 86px;
   font-weight: 700;
   line-height: 128px;
   margin-bottom: 0;
@@ -46,7 +46,7 @@ p.projects-heading {
   font-size: 20px;
 }
 .heading {
-  padding: 160px 20px;
+  padding: 80px 20px;
   text-align: center;
   background: #f9f7fe;
   color: black;
@@ -76,7 +76,7 @@ a.project-button {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content {
   margin: 30px;
@@ -157,7 +157,8 @@ footer .footer-email-link {
 footer .footer-email-link:hover {
   color: #6c63ff;
 }
-footer .social-links a {
+footer .social-links a,
+.contact-means a {
   margin: 0 20px;
   color: #6c63ff;
   background: #f9f7fe;
@@ -181,9 +182,7 @@ footer .social-links a:hover {
   h2.subtitle {
     line-height: 1.2;
   }
-  .heading {
-    padding: 80px 20px;
-  }
+
   .project-description {
     text-align: center;
     padding: 0px;
